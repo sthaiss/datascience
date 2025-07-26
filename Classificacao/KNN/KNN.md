@@ -11,6 +11,7 @@
 
 **KNN é um algoritmo supervisionado, simples e intuitivo**, utilizado tanto para **classificação quanto para regressão**. Ele é baseado na ideia de que **pontos semelhantes estão próximos no espaço de atributos**.
 
+---
 
 🧩 **Como funciona**
 
@@ -21,6 +22,7 @@ Para fazer uma predição, o KNN segue estes passos:
 3. Para **classificação**, escolhe a **classe mais frequente*entre os vizinhos.
    Para **regressão**, retorna a **média (ou mediana)*dos valores.
 
+---
 
 ⚙️ **Hiperparâmetros principais**
 
@@ -28,18 +30,21 @@ Para fazer uma predição, o KNN segue estes passos:
 **Métrica de distância**: Euclidiana, Manhattan, Minkowski, etc.
 **Ponderação dos vizinhos**: uniforme ou ponderada pela distância.
 
+---
 
 📏 **Pré-processamento essencial**
 
 O KNN é **sensível à escala das variáveis**, então é fundamental **normalizar ou padronizar os dados**.
 Pode ser afetado por **outliers e atributos irrelevantes**.
 
+---
 
 📊 **Métricas de avaliação**
 
 Para classificação: **Acurácia, Precisão, Recall, F1-score*e **Matriz de Confusão**.
 Para regressão: **MAE (Mean Absolute Error)**, **RMSE (Root Mean Squared Error)**, etc.
 
+---
 
 ✅ **Vantagens**
 
@@ -48,6 +53,7 @@ Para regressão: **MAE (Mean Absolute Error)**, **RMSE (Root Mean Squared Error)
 Funciona bem em problemas com **fronteiras de decisão não lineares**.
 **Alta interpretabilidade local*(fácil de explicar cada predição).
 
+---
 
 ⚠️ **Desvantagens**
 
@@ -56,7 +62,7 @@ Funciona bem em problemas com **fronteiras de decisão não lineares**.
 **Sensível a dados desbalanceados*e à **maldição da dimensionalidade**.
 Requer bom **tratamento dos dados*para funcionar bem.
 
-
+---
 
 📌 **Quando aplicar**
 
